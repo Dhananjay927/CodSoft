@@ -1,0 +1,527 @@
+h5 {
+  color: aliceblue;
+  position: relative;
+  bottom: 25px;
+  left: 200px;
+  font-size: 20px;
+}
+.hello {
+  background-color: green;
+  border: 1px solid black;
+  height: 40px;
+  width: 100%;
+}
+.abc {
+  text-align: right;
+  position: relative;
+  bottom: 80px;
+  right: 20px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.new {
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+.a {
+  display: inline;
+  position: relative;
+  left: 200px;
+}
+input {
+  position: relative;
+  bottom: 25px;
+  left: 280px;
+  height: 50px;
+  width: 320px;
+  border: 1.5px solid black;
+}
+.b {
+  display: inline;
+  border-right: none;
+}
+.n {
+  display: inline;
+  position: relative;
+  left: 250px;
+  bottom: 25px;
+}
+.c {
+  display: inline;
+  position: relative;
+  left: 320px;
+  bottom: 25px;
+}
+.abc a {
+  color: aliceblue;
+}
+.new a {
+  color: black;
+}
+.d ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.d {
+  background-color: green;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  position: relative;
+  bottom: 80px;
+  color: aliceblue;
+  z-index: 10;
+}
+.d:hover {
+  color: greenyellow;
+}
+.e {
+  display: none;
+  background-color: aliceblue;
+}
+.d ul li:hover .e {
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+}
+.d a {
+  color: aliceblue;
+}
+.e a {
+  color: green;
+  text-decoration: none;
+}
+.d ul li:hover .e ul {
+  display: block;
+  margin: 5px;
+}
+.h {
+  display: none;
+  background-color: aliceblue;
+  position: relative;
+  left: 600px;
+}
+.g:hover .h {
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+}
+.g:hover .h ul {
+  display: block;
+  margin: 5px;
+}
+.h a {
+  color: green;
+  text-decoration: none;
+}
+.h ul {
+  position: relative;
+  right: 20px;
+}
+.j {
+  display: none;
+  background-color: aliceblue;
+  position: relative;
+  left: 870px;
+}
+.i:hover .j {
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+}
+.i:hover .j ul {
+  display: block;
+  margin: 5px;
+}
+.j a {
+  color: green;
+  text-decoration: none;
+}
+.j ul {
+  position: relative;
+  right: 20px;
+}
+.l {
+  display: none;
+  background-color: aliceblue;
+  position: relative;
+  left: 1090px;
+}
+.k:hover .l {
+  display: block;
+  position: absolute;
+  margin-left: -50px;
+}
+.k:hover .l ul {
+  display: block;
+  margin: 5px;
+}
+.l a {
+  color: green;
+  text-decoration: none;
+}
+.l ul {
+  position: relative;
+  right: 20px;
+}
+.m {
+  position: relative;
+  bottom: 70px;
+  left: 70px;
+}
+.lol::before {
+  content: "";
+  width: 500px;
+  height: 2px;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  background-color: black;
+}
+.lol::after {
+  content: "";
+  width: 500px;
+  height: 2px;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  background-color: black;
+}
+.lol {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  right: 62px;
+}
+.n {
+  display: inline-block;
+  border-left: none;
+}
+.q {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 55px;
+}
+.r {
+  position: relative;
+  left: 45px;
+}
+.s {
+  position: relative;
+  right: 45px;
+}
+.p {
+  position: relative;
+  left: 425px;
+  bottom: 55px;
+}
+.u {
+  width: 65px;
+  height: 8px;
+  background-color: green;
+  position: relative;
+  left: 3px;
+}
+.v {
+  position: relative;
+  bottom: 18px;
+}
+.aa {
+  border: 1px solid black;
+  width: 250px;
+  height: 286px;
+  text-align: center;
+}
+.w {
+  position: relative;
+  bottom: 8px;
+}
+.x {
+  position: relative;
+  bottom: 28px;
+}
+.y {
+  position: relative;
+  bottom: 30px;
+}
+.z {
+  border: 1px solid black;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  bottom: 46px;
+}
+.ab {
+  position: relative;
+  bottom: 8px;
+}
+.ae {
+  border: 1px solid black;
+  width: 250px;
+  height: 286px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+.af {
+  position: relative;
+  bottom: 8px;
+}
+.ag {
+  position: relative;
+  bottom: 28px;
+}
+.ah {
+  position: relative;
+  bottom: 30px;
+}
+.ai {
+  border: 1px solid black;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  bottom: 46px;
+}
+.aj {
+  position: relative;
+  bottom: 8px;
+}
+.ak {
+  border: 1px solid black;
+  width: 250px;
+  height: 286px;
+  text-align: center;
+  position: relative;
+  left: 80px;
+}
+.al {
+  position: relative;
+  bottom: 8px;
+}
+.am {
+  position: relative;
+  bottom: 28px;
+}
+.an {
+  position: relative;
+  bottom: 30px;
+}
+.ao {
+  border: 1px solid black;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  bottom: 46px;
+}
+.ap {
+  position: relative;
+  bottom: 8px;
+}
+.aq {
+  border: 1px solid black;
+  width: 250px;
+  height: 286px;
+  text-align: center;
+  position: relative;
+  left: 120px;
+}
+.ar {
+  position: relative;
+  bottom: 8px;
+}
+.as {
+  position: relative;
+  bottom: 28px;
+}
+.at {
+  position: relative;
+  bottom: 30px;
+}
+.au {
+  border: 1px solid black;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  bottom: 46px;
+}
+.av {
+  position: relative;
+  bottom: 8px;
+}
+.aw {
+  border: 1px solid black;
+  width: 250px;
+  height: 286px;
+  text-align: center;
+  position: relative;
+  left: 160px;
+}
+.ax {
+  position: relative;
+  bottom: 8px;
+}
+.ay {
+  position: relative;
+  bottom: 28px;
+}
+.az {
+  position: relative;
+  bottom: 30px;
+}
+.aaa {
+  border: 1px solid black;
+  background-color: green;
+  height: 40px;
+  position: relative;
+  bottom: 46px;
+}
+.aab {
+  position: relative;
+  bottom: 8px;
+}
+.aac {
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+}
+.aae {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: darkslategray;
+  color: aliceblue;
+  letter-spacing: 2px;
+  position: relative;
+  top: 30px;
+}
+.aaj {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+.aak {
+  border: 1px solid black;
+  width: 180px;
+  height: 45px;
+  position: relative;
+  bottom: 265px;
+  left: 100px;
+  background-color: aquamarine;
+}
+.aal {
+  position: relative;
+  bottom: 300px;
+  display: none;
+}
+.aam {
+  border: 1px solid black;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  bottom: 15px;
+  background-color: antiquewhite;
+  color: green;
+}
+.aan {
+  border: 1px solid black;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  background-color: antiquewhite;
+  color: green;
+}
+.aao {
+  border: 1px solid black;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  top: 15px;
+  background-color: antiquewhite;
+  color: green;
+}
+.r:hover .aal {
+  display: block;
+}
+.r:hover .aak {
+  display: none;
+}
+.aap {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+.aaq {
+  border: 1px solid black;
+  width: 180px;
+  height: 45px;
+  position: relative;
+  bottom: 265px;
+  left: 100px;
+  background-color: aquamarine;
+}
+.aar {
+  position: relative;
+  bottom: 260px;
+  display: none;
+}
+.aas {
+  border: 1px solid black;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  background-color: antiquewhite;
+  color: green;
+}
+.s:hover .aar {
+  display: block;
+}
+.s:hover .aaq {
+  display: none;
+}
+.aau {
+  border: 1px solid black;
+  width: 180px;
+  height: 45px;
+  position: relative;
+  bottom: 265px;
+  left: 100px;
+  background-color: aquamarine;
+}
+.aat {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 5px;
+}
+.aav {
+  position: relative;
+  bottom: 260px;
+  display: none;
+}
+.aaw {
+  border: 1px solid black;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  left: 75px;
+  background-color: antiquewhite;
+  color: green;
+}
+.p:hover .aav {
+  display: block;
+}
+.p:hover .aau {
+  display: none;
+}
