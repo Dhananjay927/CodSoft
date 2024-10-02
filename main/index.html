@@ -1,0 +1,796 @@
+<html></html>
+    <head>
+        <style>
+            h5{
+                color: aliceblue;
+                position: relative;
+                bottom: 25px;
+                left: 200px;
+                font-size: 20px;
+            }
+            .hello{
+                background-color: green;
+                border: 1px solid black;
+                height: 40px;
+                width: 100%;
+            }
+            .abc{
+                text-align: right;
+                position: relative;
+                bottom: 80px;
+                right: 20px;
+                color: aliceblue;
+                font-size: 20px;
+            }
+            .new{
+                text-align: center;
+                position: relative;
+                bottom: 70px;
+            }
+            .a{
+                display: inline;
+                position: relative;
+                left: 200px;
+            }
+            input{
+                position: relative;
+                bottom: 25px;
+                left: 280px;
+                height: 50px;
+                width: 320px;
+                border: 1.5px solid black;
+            }
+            .b{
+                display: inline;
+                border-right: none;
+            }
+            .n{
+                display: inline;
+                position: relative;
+                left: 250px; 
+                bottom: 25px;  
+            }
+            .c{
+                display: inline;
+                position: relative;
+                left: 320px; 
+                bottom: 25px;
+            }
+            .abc a{
+                color: aliceblue;
+            }
+            .new a{
+                color:black;
+            }
+            .d ul{
+                display: flex;
+                justify-content:space-evenly;     
+            }
+            .d{
+                background-color:green;
+                width: 100%;
+                height: 40px;
+                border: 1px solid black;
+                position: relative;
+                bottom: 80px;
+                color: aliceblue;
+                z-index: 10;
+            }
+            .d:hover{
+                color: greenyellow;
+            }
+            .e{
+                display: none;
+                background-color:aliceblue;
+            }
+            .d ul li:hover .e{
+                display: block; 
+                position: absolute;
+                margin-left: -50px;   
+            } 
+            .d a{
+                color: aliceblue;
+            }
+            .e a{
+                color:green ;
+                text-decoration: none;
+            }
+            .d ul li:hover .e ul{
+                display: block;
+                margin: 5px;  
+            }  
+            .h{
+                display: none;
+                background-color:aliceblue;
+                position: relative;
+                left: 600px;
+            }
+            .g:hover .h{
+                display: block; 
+                position: absolute;
+                margin-left: -50px; 
+            }
+            .g:hover .h ul{
+                display: block;
+                margin: 5px;  
+            }
+            .h a{
+                color: green;
+                text-decoration: none;
+            }
+            .h ul{
+                position: relative;
+                right: 20px;
+            } 
+            .j{
+                display: none;
+                background-color:aliceblue;
+                position: relative;
+                left: 870px 
+            }
+            .i:hover .j{
+                display: block; 
+                position: absolute;
+                margin-left: -50px;
+            }
+            .i:hover .j ul{
+                display: block;
+                margin: 5px; 
+            }
+            .j a{
+                color: green;
+                text-decoration: none;
+            }
+            .j ul{
+                position: relative;
+                right: 20px;
+            }
+            .l{
+                display: none;
+                background-color:aliceblue;
+                position: relative;
+                left: 1090px; 
+            }
+            .k:hover .l{
+                display: block; 
+                position: absolute;
+                margin-left: -50px;
+            }
+            .k:hover .l ul{
+                display: block;
+                margin: 5px; 
+            }
+            .l a{
+                color: green;
+                text-decoration: none;
+            }
+            .l ul{
+                position: relative;
+                right: 20px;
+            } 
+            .m{
+                position: relative;
+                bottom: 70px;
+                left: 70px;
+            }
+            .lol::before{
+                content: "";
+                width: 500px;
+                height: 2px;
+                display: inline-block;
+                position: relative;
+                top: -10px;
+                background-color: black;
+            }
+            .lol::after{
+                content: "";
+                width: 500px;
+                height: 2px;
+                display: inline-block;
+                position: relative;
+                top: -10px;
+                background-color: black;
+            }
+            .lol{
+                text-align: center;
+                position: relative;
+                bottom: 10px;
+                right:62px;
+            }
+            .n{
+                display: inline-block;
+                border-left: none;
+            }
+            .q{
+                display: flex;
+                justify-content:space-evenly;
+                position: relative;
+                bottom: 55px;
+            }
+            .r{
+                position: relative;
+                left: 45px;
+            }
+            .s{
+                position: relative;
+                right: 45px;
+            }
+            .p{
+                position: relative;
+                left: 425px;
+                bottom: 55px;
+            }
+            .u{
+                width: 65px;
+                height: 8px;
+                background-color: green;
+                position: relative;
+                left: 3px;
+            }
+            .v{
+                position: relative;
+                bottom: 18px;
+            }
+            .aa{
+                border: 1px solid black;
+                width: 250px;
+                height: 286px;
+                text-align: center;
+            }
+            .w{
+                position: relative;
+                bottom: 8px;
+           }
+           .x{
+                position: relative;
+                bottom: 28px;
+           }
+           .y{
+                position: relative;
+                bottom: 30px;
+           }
+           .z{
+                border: 1px solid black;
+                background-color: green;
+                height: 40px;
+                position: relative;
+                bottom: 46px;
+            }
+            .ab{
+                position: relative;
+                bottom: 8px;
+            }
+            .ae{
+                border: 1px solid black;
+                width: 250px;
+                height: 286px;
+                text-align: center;
+                position: relative;
+                left: 40px;
+            }
+            .af{
+                position: relative;
+                bottom: 8px;
+           }
+           .ag{
+                position: relative;
+                bottom: 28px;
+           }
+           .ah{
+                position: relative;
+                bottom: 30px;
+           }
+           .ai{
+                border: 1px solid black;
+                background-color: green;
+                height: 40px;
+                position: relative;
+                bottom: 46px;
+            }
+            .aj{
+                position: relative;
+                bottom: 8px;
+            }
+            .ak{
+                border: 1px solid black;
+                width: 250px;
+                height: 286px;
+                text-align: center;
+                position: relative;
+                left: 80px;
+            }
+            .al{
+                position: relative;
+                bottom: 8px;
+           }
+           .am{
+                position: relative;
+                bottom: 28px;
+           }
+           .an{
+                position: relative;
+                bottom: 30px;
+           }
+           .ao{
+                border: 1px solid black;
+                background-color: green;
+                height: 40px;
+                position: relative;
+                bottom: 46px;
+            }
+            .ap{
+                position: relative;
+                bottom: 8px;
+            }
+            .aq{
+                border: 1px solid black;
+                width: 250px;
+                height: 286px;
+                text-align: center;
+                position: relative;
+                left: 120px;
+            }
+            .ar{
+                position: relative;
+                bottom: 8px;
+           }
+           .as{
+                position: relative;
+                bottom: 28px;
+           }
+           .at{
+                position: relative;
+                bottom: 30px;
+           }
+           .au{
+                border: 1px solid black;
+                background-color: green;
+                height: 40px;
+                position: relative;
+                bottom: 46px;
+            }
+            .av{
+                position: relative;
+                bottom: 8px;
+            }
+            .aw{
+                border: 1px solid black;
+                width: 250px;
+                height: 286px;
+                text-align: center;
+                position: relative;
+                left: 160px;
+            }
+            .ax{
+                position: relative;
+                bottom: 8px;
+           }
+           .ay{
+                position: relative;
+                bottom: 28px;
+           }
+           .az{
+                position: relative;
+                bottom: 30px;
+           }
+           .aaa{
+                border: 1px solid black;
+                background-color: green;
+                height: 40px;
+                position: relative;
+                bottom: 46px;
+            }
+            .aab{
+                position: relative;
+                bottom: 8px;
+            }
+            .aac{
+                display: flex;
+                justify-content: space-between;
+                overflow: scroll;
+            }
+            .aae{
+                display: flex;
+                justify-content: space-evenly;
+                background-color: darkslategray;
+                color: aliceblue;
+                letter-spacing: 2px;
+                position: relative;
+                top: 30px;
+            }
+            .aaj{
+                text-align: center;
+                position: relative;
+                bottom: 10px;
+                left: 5px; 
+            }
+            .aak{
+                border: 1px solid black;
+                width: 180px;
+                height: 45px;   
+                position: relative;
+                bottom: 265px;
+                left: 100px;
+                background-color: aquamarine;
+            }
+            .aal{
+                position: relative;
+                bottom: 300px;
+                display: none;
+            }
+            .aam{
+                border: 1px solid black;
+                width: 240px;
+                height: 45px;
+                text-align: center;
+                position: relative;
+                left: 75px;
+                bottom: 15px;
+                background-color: antiquewhite;
+                color: green;
+            }
+            .aan{
+                border: 1px solid black;
+                width: 240px;
+                height: 45px;
+                text-align: center;
+                position: relative;
+                left: 75px;
+                background-color: antiquewhite;
+                color: green;
+            }
+            .aao{
+                border: 1px solid black;
+                width: 240px;
+                height: 45px;
+                text-align: center;
+                position: relative;
+                left: 75px;
+                top: 15px;
+                background-color: antiquewhite;
+                color: green;
+            }
+            .r:hover .aal{
+                display: block;
+               
+            }
+            .r:hover .aak{
+                display: none;
+            }
+            .aap{
+                text-align: center;
+                position: relative;
+                bottom: 10px;
+                left: 5px; 
+            }
+            .aaq{
+                border: 1px solid black;
+                width: 180px;
+                height: 45px;   
+                position: relative;
+                bottom: 265px;
+                left: 100px;
+                background-color: aquamarine;
+            }
+            .aar{
+                position: relative;
+                bottom: 260px;
+                display: none;
+            }
+            .aas{
+                border: 1px solid black;
+                width: 240px;
+                height: 45px;
+                text-align: center;
+                position: relative;
+                left: 75px;
+                background-color: antiquewhite;
+                color: green;
+            }
+            .s:hover .aar{
+                display: block;
+            }
+            .s:hover .aaq{
+                display: none;
+            }
+            .aau{
+                border: 1px solid black;
+                width: 180px;
+                height: 45px;   
+                position: relative;
+                bottom: 265px;
+                left: 100px;
+                background-color: aquamarine;
+            }
+            .aat{
+                text-align: center;
+                position: relative;
+                bottom: 10px;
+                left: 5px; 
+            }
+            .aav{
+                position: relative;
+                bottom: 260px;
+                display: none;
+            }
+            .aaw{
+                border: 1px solid black;
+                width: 240px;
+                height: 45px;
+                text-align: center;
+                position: relative;
+                left: 75px;
+                background-color: antiquewhite;
+                color: green;
+            }
+            .p:hover .aav{
+                display: block;
+            }
+            .p:hover .aau{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hello">
+            <script src="https://kit.fontawesome.com/2d72a65fbb.js" crossorigin="anonymous"></script>
+            <h5>Due to covid-19 situation the product deliveries might take longer.</h5>
+            <div class="abc">
+                <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="new">
+                <div class="a">
+                    <img src="lam1.jpg" height="65px" width="180px">
+                </div>
+                <div class="b">
+                    <input type="search" placeholder="Search something" name="search">
+                </div>
+                <div class="n">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="c">
+                    <a href="https://www.lamonk.in/cart"><i class="fa-solid fa-cart-shopping"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.lamonk.in/account"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+            <div class="d">
+                <ul type="none">
+                <li><a href="https://lamonk.in/"><i class="fa-solid fa-house"></i></a></li>
+                <li class="f">Oils
+                    <div class="e">
+                        <ul type="none">
+                           <li class="f"><a href="https://lamonk.in/category/?cate=24a3c3b2da">Essential oil</a></li><br>
+                           <li class="f"><a href="https://lamonk.in/category/?cate=c1cb2aac1d">Virotherapy oil</a></li><br>
+                           <li class="f"><a href="https://lamonk.in/category/?cate=3d1244a3b1">Ultra Orthoveda oil</a></li><br>
+                           <li class="f"><a href="https://lamonk.in/category/?cate=bbd43ca4bc">Hair oil</a></li><br>
+                           <li class="f"><a href="https://lamonk.in/category/?cate=2c2c3cca42">Carrier oil</a></li><br>
+                           <li class="f"><a href="https://lamonk.in/category/?cate=1213d2d1cd">Beard oil</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="g">Men's Grooming kit
+                    <div class="h">
+                        <ul type="none">
+                            <li class="g"><a href="https://www.lamonk.in/category/?cate=c1b3bc1c3d">Beard balm</a></li><br>
+                            <li class="g"><a href="https://www.lamonk.in/category/?cate=1213d2d1cd"> Beard oil</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="i">Perfumes
+                    <div class="j">
+                        <ul type="none">
+                            <li class="i"><a href="https://www.lamonk.in/category/?cate=abb1b33dc2">Natural Perfume</a> </li><br>
+                            <li class="i"><a href="https://www.lamonk.in/category/?cate=aaabcdaa3d"> Pocket Perfumes</a></li><br>
+                            <li class="i"><a href="https://www.lamonk.in/category/?cate=dab3211c1b">Dog Perfume</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="k">Others
+                    <div class="l">
+                        <ul type="none">
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=dddb3212a1">Scented Candles</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=2c44acb22d">Aromatherapy Roll Ons</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=dab3211c1b">Dog Perfume</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=1a3d32c22b">Aromatherapy Candles</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=c2abd12423">Diffusers</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=b3aa4d3234">Natural Handmade Glycerine Soap</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=a311aaadcb">Pepper Spray</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=acd2d313a2">Mosquito Repellent</a></li><br>
+                            <li class="k"><a href="https://www.lamonk.in/category/?cate=43cb314bb4">Natural Handmade Goat Milk Soap</a></li>
+                        </ul>
+                    </div>
+                </li> 
+                </ul> 
+            </div>
+            <div class="m">
+                <img src="lam2.png" width="90%">
+                <h3 class="lol">Our categories</h3>
+            </div>
+            <div class="o">
+                <div class="q">
+                    <div class="r">
+                        <img src="lam3.jpg">
+                        <div class="aak">
+                            <h2 class="aaj">Perfumes</h2>
+                        </div>
+                        <div class="aal">
+                            <div class="aam">
+                                <h2>Dog Perfume</h2>
+                            </div>
+                            <div class="aan">
+                                <h2>Natural Perfume</h2>
+                            </div>
+                            <div class="aao">
+                                <h2>Pocket Perfumes</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s">
+                        <img src="lam4.jpg">
+                        <div class="aaq">
+                            <h2 class="aap">Carrier Oils</h2>
+                        </div>
+                        <div class="aar">
+                            <div class="aas">
+                                <h2>carrier Oils</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p">
+                    <img src="lam5.jpg">
+                    <div class="aau">
+                        <h2 class="aat">Essential Oils</h2>
+                    </div>
+                    <div class="aav">
+                        <div class="aaw">
+                            <h2>Essential Oils</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t">
+                <div class="u">
+                </div>
+                <h1 class="v">Best Seller</h1>
+                <div class="aad">
+                    <div class="aac">
+                        <div class="aa">
+                            <img src="lam6.png" height="150px" width="100px">
+                            <div class="w">
+                                <h3>Ocean Blue</h3>
+                            </div>
+                            <div class="x">
+                                <h4>Pocket Perfume</h4>
+                            </div>
+                            <div class="y">
+                                <h3>$170</h3>
+                            </div>
+                            <div class="z">
+                                <h3 class="ab">Buy now</h3>
+                            </div>
+                        </div>
+                        <div class="ae">
+                            <img src="lam7.png" height="150px" width="50px">
+                            <div class="af">
+                                <h3>Yoga</h3>
+                            </div>
+                            <div class="ag">
+                                <h4>Aromatherapy Roll ons</h4>
+                            </div>
+                            <div class="ah">
+                                <h3>$300</h3>
+                            </div>
+                            <div class="ai">
+                                <h3 class="aj">Buy now</h3>
+                            </div>
+                        </div>
+                        <div class="ak">
+                            <img src="lam8.png" height="150px" width="100px">
+                            <div class="al">
+                                <h3>Heaven</h3>
+                            </div>
+                            <div class="am">
+                                <h4>Pocket Perfume</h4>
+                            </div>
+                            <div class="an">
+                                <h3>$170</h3>
+                            </div>
+                            <div class="ao">
+                                <h3 class="ap">Buy now</h3>
+                            </div>
+                        </div>
+                        <div class="aq">
+                            <img src="lam9.png" height="150px" width="150px">
+                            <div class="ar">
+                                <h3>Lemon Soap</h3>
+                            </div>
+                            <div class="as">
+                                <h4>Natural Handmade Glycerine Soap</h4>
+                            </div>
+                            <div class="at">
+                                <h3>$190</h3>
+                            </div>
+                            <div class="au">
+                                <h3 class="av">Buy now</h3>
+                            </div>
+                        </div>
+                        <div class="aw">
+                            <img src="lam10.png" height="150px" width="100px">
+                            <div class="ax">
+                                <h3>Dark Amber</h3>
+                            </div>
+                            <div class="ay">
+                                <h4>Pocket Perfume</h4>
+                            </div>
+                            <div class="az">
+                                <h3>$170</h3>
+                            </div>
+                            <div class="aaa">
+                                <h3 class="aab">Buy now</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aae">
+                <div class="aaf">
+                    <h3>CATEGORIES</h3>
+                    <pre>
+                    </pre>
+                    <p>Beard Oil</p>
+                    <p>Aromatherapy Candles</p>
+                    <p>Essential Oil</p>
+                    <p>Carrier Oil</p>
+                    <p>Aromatherapy Roll Ons</p>
+                    <p>Ultra Orthoveda Oil</p>
+                    <p>Natural Handmade Goat Milk Soap</p>
+                    <p>Pepper Spray</p>
+                    <p>Pocket Perfume</p>
+                    <p>Natural Perfumes</p>
+                    <p>Mosquito Repellent</p>
+                    <p>Organic Carrier Oil</p>
+                    <p>Natural Handmade Glycerine Soap</p>
+                    <p>Organic Carrier Oil</p>
+                    <p>Hair Oil</p>
+                    <p>Beard Balm</p>
+                    <p>Virotherapy Oil</p>
+                    <p>Diffusers</p>
+                    <p>Hand Sanitizer & Disinfectants</p>
+                    <p>Farming</p>
+                    <p>Dog Perfume</p>
+                    <p>Scented Candles</p>
+                </div>
+                <div class="aag">
+                    <h3>IMPORTANT LINKS</h3>
+                    <pre>
+                    </pre>
+                    <p>About us</p>
+                    <p>Blog</p>
+                    <p>News & Media</p>
+                    <p>Privacy</p>
+                    <p>Term and Conditions</p>
+                </div>
+                <div class="aah">
+                    <h3>FOLLOW US</h3>
+                    <pre>
+                    </pre>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                    <p>Youtube</p>
+                    <p>Twitter</p>
+                </div>
+                <div class="aai">
+                    <h3>CONTACT-US</h3>
+                    <pre>
+                    </pre>
+                    <p>Email: info@lamonk.in</p>
+                    <p>contact form</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
